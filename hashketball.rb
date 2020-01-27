@@ -193,9 +193,3 @@ def big_shoe_rebounds
   end
   num_rebounds
 end
-
-def most_points_scored
-  game_hash.each do |player, game_data|
-    game_data[:players].each do |player|
-      binding.pry
-end
